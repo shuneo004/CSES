@@ -7,8 +7,8 @@ void remove(int id, int l, int r, int u);
 int total(int id, int l, int r, int u, int v);
 int find(int id, int l, int r, int u, int v, int x);
 int main() {
-    int n, k;
-    cin >> n >> k;
+    int n, k = 1;
+    cin >> n;
     // n = 7, k = 2;
     build(0, 0, n - 1);
     // cout << total(0, 0, n-1, 0, 3) << endl;
